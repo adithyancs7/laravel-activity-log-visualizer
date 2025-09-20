@@ -1,16 +1,17 @@
 {
   "name": "adithyan/activitylog-visualizer",
   "description": "A small UI to visualize Spatie activity log",
+  "version": "dev-main",
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Yourvendor\\ActivitylogVisualizer\\": "src/"
+      "Adithyan\\ActivityLogVisualizer\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Adithyan\\ActivityLogVisualizer\\cd"
+        "Adithyan\\ActivityLogVisualizer\\ActivityLogVisualizerServiceProvider"
       ]
     }
   },
