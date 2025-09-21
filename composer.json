@@ -1,7 +1,13 @@
 {
-  "name": "adithyan/activitylog-visualizer",
+  "name": "adithyan_cs/activitylog-visualizer",
   "description": "A small UI to visualize Spatie activity log",
-  "keywords": ["laravel", "activitylog", "spatie", "ui", "package"],
+  "keywords": [
+    "laravel",
+    "activitylog",
+    "spatie",
+    "ui",
+    "package"
+  ],
   "license": "MIT",
   "authors": [
     {
