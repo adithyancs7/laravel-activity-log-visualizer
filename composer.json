@@ -1,11 +1,29 @@
 {
   "name": "adithyan/activitylog-visualizer",
   "description": "A small UI to visualize Spatie activity log",
-  "version": "dev-main",
+  "keywords": ["laravel", "activitylog", "spatie", "ui", "package"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adithyan Cs",
+      "email": "adithyancs254@gmail.com"
+    }
+  ],
+  "version": "1.0.0",
   "type": "library",
+  "require": {
+    "php": ">=8.1",
+    "laravel/framework": "^10.0",
+    "spatie/laravel-activitylog": "^4.0"
+  },
   "autoload": {
     "psr-4": {
       "Adithyan\\ActivityLogVisualizer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Adithyan\\ActivityLogVisualizer\\Tests\\": "tests/"
     }
   },
   "extra": {
@@ -15,5 +33,9 @@
       ]
     }
   },
-  "require": {}
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "scripts": {
+    "test": "phpunit"
+  }
 }

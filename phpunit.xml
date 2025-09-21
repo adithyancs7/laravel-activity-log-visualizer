@@ -1,0 +1,8 @@
+<phpunit bootstrap="/var/www/html/testApp/vendor/autoload.php"
+         colors="true">
+    <testsuites>
+        <testsuite name="ActivityLogVisualizer Test Suite">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
